@@ -5,6 +5,7 @@ GEM
       faye-websocket (~> 0.10.0)
       selenium-webdriver (~> 3.14, >= 3.14.1)
     backports (3.18.1)
+    base64 (0.3.0)
     builder (3.2.4)
     childprocess (3.0.0)
     cucumber (3.1.2)
@@ -48,7 +49,8 @@ GEM
     selenium-webdriver (3.142.7)
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
-    websocket-driver (0.7.2)
+    websocket-driver (0.8.2)
+      base64
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
 
